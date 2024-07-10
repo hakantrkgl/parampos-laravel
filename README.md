@@ -37,21 +37,21 @@ Bu proje, Laravel framework kullanılarak ParamPos ödeme sisteminin entegre edi
     Gerekli bağımlılıkları yükleyin:
     ```
 
-bash
+#### bash
 Kodu kopyala
 composer install
 .env dosyanızı oluşturun:
 
-bash
+#### bash
 Kodu kopyala
 cp .env.example .env
 Çevresel değişkenleri ayarlayın:
 
 .env dosyanızda ParamPos API bilgilerinizi ve veritabanı ayarlarını yapın.
 
-Uygulamanızı başlatın:
+#### Uygulamanızı başlatın:
 
-bash
+#### bash
 Kodu kopyala
 php artisan serve
 Kullanım
@@ -59,13 +59,12 @@ Ana sayfaya gidin:
 
 http://127.0.0.1:8000/
 
-Ödeme sayfasına gidin:
+####  Ödeme sayfasına gidin:
 
 http://127.0.0.1:8000/payment
-
 Kredi kartı bilgilerini girin veya test kartlarından birini seçin ve ödeme işlemini gerçekleştirin.
 
-Katkıda Bulunma
+#### Katkıda Bulunma
 Projeye katkıda bulunmak için aşağıdaki adımları izleyebilirsiniz:
 
 Fork yapın
@@ -74,5 +73,14 @@ Değişikliklerinizi yapın ve commitleyin: git commit -m 'Yeni özellik ekle'
 Dalınıza push yapın: git push origin my-feature-branch
 Bir Pull Request açın
 
-Lisans
+#### Lisans
 Bu proje MIT lisansı altında lisanslanmıştır.
+
+#### İletişim 
+
+Herhangi bir soru veya sorun için lütfen
+
+https://www.facebook.com/khan8006 
+https://twitter.com/hakantrkgl 
+https://instagram.com/hakanturkgl 
+https://www.linkedin.com/in/hakanturkgl
